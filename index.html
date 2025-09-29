@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>wiggle wiggle × niko and …</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROFILE | My Site</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo">WIGGLE WIGGLE × NIKO AND</div>
-    <nav class="site-nav">
-      <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#items">ITEMS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+  <main class="profile-wrap">
+    <section class="profile-card">
+      <h1 class="profile-title">PROFILE</h1>
 
-  <section class="hero">
-    <div class="hero-inner">
-      <h1>Maximal HAPPINESS</h1>
-      <p>wiggle wiggle とのコラボレーション登場</p>
-    </div>
-  </section>
-
-  <section id="about" class="section about">
-    <h2>ABOUT</h2>
-    <p>ブランドコンセプト、その背景、説明テキストをここに入れます。</p>
-  </section>
-
-  <section id="items" class="section items">
-    <h2>ITEMS</h2>
-    <div class="items-grid">
-      <!-- 商品アイテム例 -->
-      <div class="item-card">
-        <img src="images/sample1.jpg" alt="商品1">
-        <p>商品名 1</p>
-        <p>¥6,000</p>
+      <div class="profile-top">
+        <img class="avatar" src="images/me.jpg" alt="プロフィール写真" />
+        <div class="id-box card">
+          <dl>
+            <div><dt>名前</dt><dd>小原結菜</dd></div>
+            <div><dt>SNSアカウント</dt><dd>@subarashiisaito</dd></div>
+          </dl>
+        </div>
       </div>
-      <div class="item-card">
-        <img src="images/sample2.jpg" alt="商品2">
-        <p>商品名 2</p>
-        <p>¥8,500</p>
+
+      <div class="grid">
+        <div class="mini card">
+          <h3>性格</h3>
+          <p>前向き<br>マイペース</p>
+        </div>
+        <div class="mini card">
+          <h3>仕事</h3>
+          <p>グラフィック<br>デザイナー</p>
+        </div>
+        <div class="mini card">
+          <h3>趣味</h3>
+          <p>カフェ巡り<br>映画鑑賞</p>
+        </div>
+        <div class="mini card">
+          <h3>得意なこと</h3>
+          <p>絵を描く<br>英語</p>
+        </div>
       </div>
-      <!-- 他も同様 -->
-    </div>
-  </section>
 
-  <section id="contact" class="section contact">
-    <h2>CONTACT</h2>
-    <p>お問い合わせ先、リンクや説明をここに。</p>
-  </section>
-
-  <footer class="site-footer">
-    <p>&copy; 2025 WIGGLE WIGGLE × NIKO AND</p>
-  </footer>
+      <div class="message card">
+        <h3>メッセージ</h3>
+        <p>
+          こんにちは！小原結菜です。日常で役立つシンプルでかわいい
+          デザインを届けていきます。よろしくお願いします。
+        </p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
