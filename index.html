@@ -2,52 +2,59 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>My Artist Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wiggle wiggle × niko and …</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ヘッダー -->
-  <header>
-    <div class="logo">MY LOGO</div>
-    <nav>
+  <header class="site-header">
+    <div class="logo">WIGGLE WIGGLE × NIKO AND</div>
+    <nav class="site-nav">
       <ul>
-        <li><a href="#news">NEWS</a></li>
-        <li><a href="#works">WORKS</a></li>
-        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#items">ITEMS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- メインビジュアル -->
   <section class="hero">
-    <h1>ようこそ！</h1>
-    <p>ここにキャッチコピーを入れます</p>
+    <div class="hero-inner">
+      <h1>Maximal HAPPINESS</h1>
+      <p>wiggle wiggle とのコラボレーション登場</p>
+    </div>
   </section>
 
-  <!-- NEWS -->
-  <section id="news" class="section">
-    <h2>NEWS</h2>
-    <ul>
-      <li>2025/09/29 サイトを公開しました！</li>
-      <li>2025/09/28 デザインをアップデートしました。</li>
-    </ul>
+  <section id="about" class="section about">
+    <h2>ABOUT</h2>
+    <p>ブランドコンセプト、その背景、説明テキストをここに入れます。</p>
   </section>
 
-  <!-- WORKS -->
-  <section id="works" class="section">
-    <h2>WORKS</h2>
-    <p>ここに作品紹介を載せます。</p>
+  <section id="items" class="section items">
+    <h2>ITEMS</h2>
+    <div class="items-grid">
+      <!-- 商品アイテム例 -->
+      <div class="item-card">
+        <img src="images/sample1.jpg" alt="商品1">
+        <p>商品名 1</p>
+        <p>¥6,000</p>
+      </div>
+      <div class="item-card">
+        <img src="images/sample2.jpg" alt="商品2">
+        <p>商品名 2</p>
+        <p>¥8,500</p>
+      </div>
+      <!-- 他も同様 -->
+    </div>
   </section>
 
-  <!-- PROFILE -->
-  <section id="profile" class="section">
-    <h2>PROFILE</h2>
-    <p>ここにプロフィールや自己紹介を載せます。</p>
+  <section id="contact" class="section contact">
+    <h2>CONTACT</h2>
+    <p>お問い合わせ先、リンクや説明をここに。</p>
   </section>
 
-  <!-- フッター -->
-  <footer>
-    <p>&copy; 2025 My Artist Site</p>
+  <footer class="site-footer">
+    <p>&copy; 2025 WIGGLE WIGGLE × NIKO AND</p>
   </footer>
 </body>
 </html>
